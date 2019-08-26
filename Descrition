@@ -7,3 +7,11 @@ The goal of the project was to train a Deep Learning to replicate the human stee
  -  Use the simulator to collect data of good driving behaviour
  -  Design, train and validate a model that predicts a steering angle from image data
  -  Use the model to drive the vehicle autonomously around the first track in the simulator.
+
+
+Code structure
+model.py: model definition and training
+model.h5 (a trained Keras model) model weights
+drive.py: interaction with the simulator (actually drive the car)
+Environments.yml: conda environment (Use TensorFlow without GPU)
+utils.py: The script to provide useful functionalities (image pre-processing and augmentation)
